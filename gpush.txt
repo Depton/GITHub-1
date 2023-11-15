@@ -1,0 +1,23 @@
+To push file from local repository to remote repository 
+Create your remote repository in git up
+Create a folder (Mkdir)
+Create a file {touch or vim}
+Initialize git 
+add file using git add . or file name 
+use git status to verify fil 
+use git commit -m with good commit message
+For the first push use git remote push origin master
+After that you can do git pull and see changes on your machine.
+To update your local repo with latest code from remote repo, use git fetch origin master
+Then merge it into your current branch by using git checkout master && git merge origin/master.
+This will bring all the changes from remote repo to your local repo.
+If there are any conflicts then resolve them manually.
+Once resolved, commit those changes and push again using git push origin master.
+Now both repositories have same files.
+You can clone this repository to another machine and repeat above steps to get updated version of project.
+
+
+
+
+
+
